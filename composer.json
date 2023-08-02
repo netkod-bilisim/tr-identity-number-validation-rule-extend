@@ -1,0 +1,39 @@
+{
+    "name": "netkod-bilisim/tr-identity-number-validation-rule-extend",
+    "description": "It checks the TR Identity Number.  It is the extended version package of the TR Identity Number verification package prepared to be used in the request rules.",
+    "keywords": [
+        "identity number",
+        "tr identity number",
+        "tr identity number validation",
+        "tr identity number validation rule",
+        "tr identity number validation rule extend"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Remzi DALYAN",
+            "email": "remzi.dalyan@netkodbilisim.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": ">=5.5",
+        "netkod-bilisim/tr-identity-number-validation": "^1"
+    },
+    "autoload": {
+        "psr-4": {
+            "NetkodBilisim\\TrIdentityNumberValidationRuleExtend\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "NetkodBilisim\\TrIdentityNumberValidationRuleExtend\\Providers\\TrIdentityNumberValidationRuleExtendServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
