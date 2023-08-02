@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'error' => 'Girilen :attribute eksik veya hatalı.'
+    'error' => 'Girilen :attribute eksik veya hatalı.',
 ];
