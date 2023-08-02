@@ -2,8 +2,8 @@
 
 namespace NetkodBilisim\TrIdentityNumberValidationRuleExtend\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\ServiceProvider;
 
 class TrIdentityNumberValidationRuleExtendServiceProvider extends ServiceProvider
 {
