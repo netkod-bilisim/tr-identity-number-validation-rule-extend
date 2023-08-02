@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'error' => 'The :attribute entered is missing or incorrect.'
+    'error' => 'The :attribute entered is missing or incorrect.',
 ];

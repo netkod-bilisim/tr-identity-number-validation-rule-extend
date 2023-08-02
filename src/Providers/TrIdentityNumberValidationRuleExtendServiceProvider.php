@@ -10,7 +10,7 @@ class TrIdentityNumberValidationRuleExtendServiceProvider extends ServiceProvide
 {
     public function boot()
     {
-        $this->loadTranslationsFrom(__DIR__ . '/../../resources/lang', 'NetkodBilisim');
+        $this->loadTranslationsFrom(__DIR__.'/../../resources/lang', 'NetkodBilisim');
 
         Validator::extend('tr_identity_number', 'NetkodBilisim\TrIdentityNumberValidationRuleExtend\Rules\TrIdentityNumberRule@passes');
     }
